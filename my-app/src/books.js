@@ -18,6 +18,6 @@ export const books = [
     author: 'Jimmy Nino',
     title: 'Hello Car',
     img: img3,
-    id: 2,
+    id: 3,
   },
 ]
