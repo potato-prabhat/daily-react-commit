@@ -1,14 +1,23 @@
+import img1 from './images/book1.jpg'
+import img2 from './images/book2.jpg'
+import img3 from './images/book3.jpg'
 export const books = [
   {
     author: 'Emily Henry',
     title: 'Funny Story',
-    img: 'https://m.media-amazon.com/images/I/91Yb6fD29xL._AC_UY218_.jpg',
+    img: img1,
     id: 1,
   },
   {
     author: 'Ann Napolitano',
     title: 'Hello Beautiful',
-    img: 'https://m.media-amazon.com/images/I/91ejqv4ZJ6L._AC_UY218_.jpg',
+    img: img2,
+    id: 2,
+  },
+  {
+    author: 'Jimmy Nino',
+    title: 'Hello Car',
+    img: img3,
     id: 2,
   },
 ]
