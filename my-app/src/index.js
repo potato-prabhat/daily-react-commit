@@ -31,7 +31,12 @@ const EventExamples = () => {
     <section>
       <form>
         <h2>Typical form</h2>
-        <input type="text" name="Example" style={{ margin: '1rem 0' }} />
+        <input
+          type="text"
+          name="Example"
+          onChange={(e) => console.log(e.target.value)}
+          style={{ margin: '1rem 0' }}
+        />
         <button type="submit">submit</button>
       </form>
       <div>
